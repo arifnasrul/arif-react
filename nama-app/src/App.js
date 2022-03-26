@@ -1,5 +1,5 @@
 import './App.css';
-import data from './simple.js';
+import data from './component/simple.js';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <h2>{data.name}</h2>
         <h3>{data.album.name}</h3>
         <p>{data.artists[0].name}</p>
-	<button><a href={data.album.artists[0].external_urls.spotify}>select</a></button>
+	      <button><a href={data.album.artists[0].external_urls.spotify}>Select</a></button>
       </div>
     </div>
   );
