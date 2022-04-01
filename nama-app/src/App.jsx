@@ -3,8 +3,8 @@ import { useState } from 'react';
 import PlaylistContainer from './components/playlistpertama';
 import SearchBar from './components/search-bar';
 
-import authService from './api/services/auth';
-import trackService from './api/services/track';
+import authService from './api/auth';
+import trackService from './api/track';
 
 import { isAuth } from './utils/OAuth';
 
