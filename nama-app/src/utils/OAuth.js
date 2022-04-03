@@ -1,13 +1,9 @@
 import { getStorage } from './storage';
 
-export const isAuth = () => {
-  const token = getStorage('TOKEN');
-  if (token) return true;
-  return false;
-};
+export const isAuth = !!getStorage('TOKEN');
 
 export const interceptSpotifyAuthRedirect = () => {
-  if (isAuth())
+  if (isAuth)
     return {
       token: getStorage('TOKEN'),
       type: getStorage('TOKEN_TYPE'),
@@ -36,6 +32,7 @@ export const interceptSpotifyAuthRedirect = () => {
       return initial;
     }, {});
   window.location.hash = '';
+  window.location.reload();
 
   if (hash.state !== STATE_KEY) throw new Error('State mismatch');
 

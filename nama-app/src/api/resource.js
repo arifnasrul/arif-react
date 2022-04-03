@@ -28,5 +28,4 @@ function createResource() {
 
   return instance;
 }
-
 export default createResource();
