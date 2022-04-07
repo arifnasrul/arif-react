@@ -10,16 +10,17 @@
     position: relative;
 }
 .music-img img {
-    width: 160px;
-    border-radius: 100px;
+    width: 170px;
+    float: left;
+    border-radius: 10px;
 }
 .btn {
     position: absolute;
-    bottom: 35px;
+    bottom: 30px;
     left: 55px;
     width: 150px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 110px;
     border: none;
 }
 .music-title {
@@ -35,12 +36,12 @@
     color: rgb(228, 145, 0);
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #dcb208;
+    background-color: #000000;
 }
 .selected {
-    color: rgb(200, 127, 0);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-weight: bold;
-    background-color: rgb(209, 121, 19);
+    background-color: rgb(1, 1, 1);
     border: solid 2px #cc07cc;
 }

@@ -2,6 +2,7 @@
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: left;
 }
 .input {
     display: block;
@@ -9,9 +10,9 @@
     font-size: 16px;
 }
 .text {
-    width: 300px;
+    width: 400px;
 }
 .textarea {
-    width: 300px;
+    width: 400px;
     height: 100px;
 }
