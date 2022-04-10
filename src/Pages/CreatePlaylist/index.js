@@ -1,6 +1,6 @@
 import '../../Assets/App.css';
 import Music from '../../Components/Music';
-import SearchBar from '../../Components/SearchBar';
+import SearchBar from '../../Components/Search';
 import React, { useState } from 'react';
 import PlaylistForm from '../../Components/Playlist';
 import { useSelector } from 'react-redux';

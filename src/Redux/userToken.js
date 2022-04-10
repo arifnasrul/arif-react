@@ -14,5 +14,4 @@ export const userTokenSlice = createSlice({
 })
 
 export const { saveToken } = userTokenSlice.actions
-
 export default userTokenSlice.reducer
