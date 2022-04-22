@@ -30,7 +30,7 @@
 }
 
 .create-playlist-title {
-    color: #1fdf64;
+    color: #d61fdf;
     font-size: 3.5rem;
     font-weight: bold;
 }
@@ -45,7 +45,7 @@
 .ant-collapse-item {
     position: relative;
     display: flex;
-    background-color: #1f1f1f;
+    background-color: #cb0707;
 }
 
 .ant-collapse-header {
@@ -127,6 +127,6 @@
 }
 
 .ant-btn-icon-only:hover {
-    border-color: #800f19;
-    color: #800f19;
+    border-color: #d61fdf;
+    color: #d61fdf;
 }

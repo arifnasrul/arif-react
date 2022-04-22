@@ -15,43 +15,43 @@ code {
 }
 
 .input.text:hover {
-  border-color: #159745;
+  border-color: #d61fdf;
 }
 
 .input.text:focus {
-  border-color: #159745;
+  border-color: #d61fdf;
 }
 
 .ant-input:hover {
-  border-color: #159745;
+  border-color: #d61fdf;
 }
 
 .ant-input:focus {
-  border-color: #159745;
+  border-color: #d61fdf;
 }
 
 .ant-input-search .ant-input:hover {
-  border-color: #159745;
+  border-color: #d61fdf;
 }
 
 .ant-input-search .ant-input:focus {
-  border-color: #159745;
+  border-color: #d61fdf;
 }
 
 .ant-btn-primary {
-  background: #1fdf64;
+  background: #d61fdf;
   border: none;
   font-weight: bold;
   color: black;
 }
 
 .ant-btn-primary:hover {
-  background: #159745;
+  background: #d61fdf;
   color: black;
 }
 
 .ant-btn-primary:focus {
-  background: #159745;
+  background: #d61fdf;
   color: black;
 }
 
@@ -60,11 +60,11 @@ code {
 }
 
 .ant-btn-default:hover {
-  border-color: #159745;
-  color: #159745;
+  border-color: #d61fdf;
+  color: #d61fdf;
 }
 
 .ant-btn-default:focus {
-  border-color: #159745;
-  color: #159745;
+  border-color: #d61fdf;
+  color: #d61fdf;
 }

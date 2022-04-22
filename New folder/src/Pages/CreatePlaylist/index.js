@@ -114,8 +114,8 @@ function CreatePlaylist () {
 								}
 							</div>
 
-							<h1 className="create-playlist-title">Create your playlist</h1>
-							<h3 className="create-playlist-sub-title">Be creative. We&apos;re giving you a freedom to make your playlist. Search millions of music track from spotify API. Select some tracks that you want. Give your playlist a title and description. Submit it, and we&apos;ll handle the rest.</h3>
+							<h1 className="create-playlist-title">Cresate your playlist</h1>
+							<h3 className="create-playlist-sub-title">Spotify adalah layanan musik digital, podcast, dan video yang memberimu akses ke jutaan lagu dan konten lain dari kreator di seluruh dunia. Fungsi dasar seperti memutar musik tidak berbayar, tetapi kamu juga bisa memilih untuk meng-upgrade ke Spotify Premium.</h3>
 
 							<Button type="primary" shape="round" onClick={() => setIsModalVisible(true)}>
 								Create a Playlist

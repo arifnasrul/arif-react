@@ -1,10 +1,10 @@
 .Music {
     background-color: #1f1f1f;
-    color: white;
+    color: rgb(81, 242, 0);
     float: left;
     padding: 30px;
-    width: 350px;
-    height: 220px;
+    width: 300px;
+    height: 250px;
     position: relative;
 }
 
@@ -15,7 +15,7 @@
 .music-info {
     position: relative;
     flex-grow: 1;
-    width: 50%;
+    width: 60%;
     align-self: center;
     margin-bottom: 37px;
 }
@@ -41,10 +41,6 @@
 
 .btn {
     justify-content: center;
-    /* width: 150px;
-    height: 30px;
-    border-radius: 10px;
-    border: none; */
 }
 
 .title-wrapper {
@@ -95,18 +91,3 @@
     font-size: 15px;
     margin: 5px auto 0 auto;
 }
-
-/* .select {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: #16a349;
-}
-
-.selected {
-    color: gray;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: white;
-    border: solid 2px #16a349;
-} */
