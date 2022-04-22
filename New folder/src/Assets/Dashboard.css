@@ -36,7 +36,7 @@
     padding: 1.2vh 2.2vw;
 }
 .side-image {
-    background-image: url(../Images/background.jpg);
+    background-image: url(../Assets/Images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
