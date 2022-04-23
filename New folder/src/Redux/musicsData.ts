@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { Tracks } from "../Interface/ISpotifyResponse";
+import { Tracks } from "../Interfaces/ISpotifyResponse";
 
 const initialState: Tracks = {
 	href: "",
@@ -20,5 +20,8 @@ export const musicsDataSlice = createSlice({
 		},
 	},
 });
+
+// Action creators are generated for each case reducer function
 export const { saveMusics } = musicsDataSlice.actions;
+
 export default musicsDataSlice.reducer;

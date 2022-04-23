@@ -1,7 +1,16 @@
 import React from "react";
-import "../../Assets/Music.css";
-import { Item } from "../../Interface/ISpotifyResponse";
+// import PropTypes from "prop-types";
+import "../../Assets/Styles/Music.css";
+import { Item } from "../../Interfaces/ISpotifyResponse";
 import { Button } from "antd";
+
+// Music.propTypes = {
+// 	data: PropTypes.any,
+// 	select: PropTypes.func,
+// 	deselect: PropTypes.func,
+// 	isSelected: PropTypes.any,
+// };
+
 
 function Music({data, select, deselect, isSelected} : {
 	data: Item,
@@ -43,6 +52,8 @@ function Music({data, select, deselect, isSelected} : {
 				{isSelected
 					? <Button onClick={handleDeselect} className="btn selected" shape="round"> SELECTED </Button>
 					: <Button onClick={handleSelect} className="btn select" shape="round" type="primary"> SELECT </Button>
+					// ? <button onClick={handleDeselect} className='btn selected'>Deselect</button>
+					// : <button onClick={handleSelect} className='btn select'>Select</button>
 				}
 			</div>
 		</div>

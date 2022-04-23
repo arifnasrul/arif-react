@@ -1,9 +1,10 @@
-import "../../Assets/Dashboard.css";
+import "../../Assets/Styles/Dashboard.css";
 import { useDispatch, useSelector } from "react-redux";
 import { saveToken } from "../../Redux/userToken";
 import React, { useEffect } from "react";
 import { Redirect } from "react-router-dom";
 import { Button } from "antd";
+// import sideImage from "../../Assets/Images/omid-armin-GIm5OV5rY0w-unsplash.jpg";
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";

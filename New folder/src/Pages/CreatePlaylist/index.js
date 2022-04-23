@@ -1,9 +1,10 @@
-import "../../Assets/App.css";
-import "../../Assets/CreatePlaylist.css";
+import "../../Assets/Styles/App.css";
+import "../../Assets/Styles/CreatePlaylist.css";
 import Music from "../../Components/Music";
-import SearchBar from "../../Components/Search";
+import SearchBar from "../../Components/SearchBar";
+// import data from './data';
 import React, { useEffect, useState } from "react";
-import PlaylistForm from "../../Components/Playlist";
+import PlaylistForm from "../../Components/PlaylistForm";
 import { useDispatch, useSelector } from "react-redux";
 import { saveToken } from "../../Redux/userToken";
 import { Redirect } from "react-router-dom";
@@ -114,8 +115,8 @@ function CreatePlaylist () {
 								}
 							</div>
 
-							<h1 className="create-playlist-title">Buat Playlist Baru</h1>
-							<h3 className="create-playlist-sub-title">Spotify adalah layanan musik digital, podcast, dan video yang memberimu akses ke jutaan lagu dan konten lain dari kreator di seluruh dunia. Fungsi dasar seperti memutar musik tidak berbayar, tetapi kamu juga bisa memilih untuk meng-upgrade ke Spotify Premium.</h3>
+							<h1 className="create-playlist-title">Create your playlist</h1>
+							<h3 className="create-playlist-sub-title">Be creative. We&apos;re giving you a freedom to make your playlist. Search millions of music track from spotify API. Select some tracks that you want. Give your playlist a title and description. Submit it, and we&apos;ll handle the rest.</h3>
 
 							<Button type="primary" shape="round" onClick={() => setIsModalVisible(true)}>
 								Create a Playlist

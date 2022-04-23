@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { Token } from "../Interface/IToken";
+import { Token } from "../Interfaces/IToken";
 
 const initialState: Token = {
 	token: "",
@@ -15,5 +15,7 @@ export const userTokenSlice = createSlice({
 	},
 });
 
+// Action creators are generated for each case reducer function
 export const { saveToken } = userTokenSlice.actions;
+
 export default userTokenSlice.reducer;
